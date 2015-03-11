@@ -229,7 +229,7 @@ h1 a:hover {
   background-color: white;
 }
 
-.button {
+#button1, #button2 {
   border: 1px solid #bbbbbb;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -241,10 +241,10 @@ h1 a:hover {
   padding: 10px 0 10px 0;
 }
 
-.button:hover {
+/*#button:hover {
   background-color: #bbbbbb;
   color: white;
-}
+}*/
 
 ::selection { color: #eaebec; background: #777; }
 
@@ -257,6 +257,18 @@ hr {
   border: 0 none; 
   border-top: 1px solid #bbbbbb; 
 }
+
+a.Mint:hover       {background-color: #E25243;}
+a.Orange:hover     {background-color: #00aeef;}
+a.Blue:hover       {background-color: #22d5e5;}
+a.Juicy:hover      {background-color: #B8E986;}
+a.Turquoise:hover  {background-color: #F5A623;}
+a.Bright:hover     {background-color: #4A90E2;}
+a.Dark:hover       {background-color: #7F92A8;}
+a.Green:hover      {background-color: #61C037;}
+a.Purple:hover     {background-color: #B370EF;}
+a.Yellow:hover     {background-color: #ffdc29;}
+a.Pink:hover       {background-color: #FF6858;}
 
 /* ====================== */
 /* IMAGES =============== */

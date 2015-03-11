@@ -4,8 +4,8 @@ layout: home
 
 Currently Chief Product Officer at [Tagboard](https://tagboard.com). I have over 20 years experience designing graphics, websites, interfaces, and presentations.
 
-<a href="http://chasem.co" class="button">Test</a>
-<a href="http://chasem.co" class="button">Test Button</a>
+<a href="http://chasem.co" id="button1" class="label">Test</a>
+<a href="http://chasem.co" id="button2" class="label">Test Button</a>
 
 My last name is pronounced “spur-tee”, but I don't really care if it’s mispronounced. It's French -- I'm French. Well, French-Irish-Jewish; a mutt of nationalities, really. This is what I look like:
 

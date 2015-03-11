@@ -5,16 +5,8 @@
   <header id="changeColors" class="home">
     <img src="/img/me_bw.png" alt="Chase McCoy" class="avatar">
     <h1><a href="/">{{ site.title | xml_escape }}</a></h1>    
-  </header>
 
-  <script>
-  var colors = ['#E25243', '#00aeef', '#22d5e5', '#B8E986', '#F5A623', '#4A90E2', '#7F92A8', '#61C037',    '#B370EF', '#ffdc29', '#FF6858'];
-  var randomColor = Math.floor((Math.random()) * colors.length);
-  var changeBackground = function() {
-    document.getElementById("changeColors").style.backgroundColor = colors[randomColor];
-  };
-  changeBackground();
-  </script>
+  </header>
 
 <!--   <div class="divider">
   </div> -->
@@ -27,5 +19,17 @@
 
   </div>
 </body>
+
+<script>
+  var colors = ['#E25243', '#00aeef', '#22d5e5', '#B8E986', '#F5A623', '#4A90E2', '#7F92A8', '#61C037',    '#B370EF', '#ffdc29', '#FF6858'];
+  var hoverColors = ['Mint', 'Orange', 'Blue', 'Juicy', 'Turquoise', 'Bright', 'Dark', 'Green',            'Purple', 'Yellow', 'Pink']
+  var randomColor = Math.floor((Math.random()) * colors.length);
+  var changeBackground = function() {
+    document.getElementById("changeColors").style.backgroundColor = colors[randomColor];
+    document.getElementById("button1").className = hoverColors[randomColor];
+    document.getElementById("button2").className = hoverColors[randomColor];
+  };
+  changeBackground();
+</script>
 
 </html>
