@@ -162,7 +162,7 @@ body.home {
 }
 
 header.home {
-  background-color: #C6483A;
+  background-color: #E25243;
   width: 100%;
   margin-top: 0;
   margin-bottom: 40px;
@@ -202,7 +202,7 @@ header.home h1 a {
 }
 
 header.home h1 a:hover {
-  background-color: #C6483A;
+  background-color: #E25243;
 }
 
 a { 
