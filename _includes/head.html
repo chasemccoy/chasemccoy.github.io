@@ -1,26 +1,20 @@
+<!DOCTYPE html>
+
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <link href="http://gmpg.org/xfn/11" rel="profile">
 
-  <!-- Enable responsiveness on mobile devices-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+	
+	<link rel="alternate" type="application/rss+xml" title="Chase McCoy" href="{{ site.baseurl }}/feed.xml">
+	<link rel="shortcut icon" href="/favicon.ico">
+	
+	<!-- <link rel="stylesheet" href="//cloud.webtype.com/css/fa92cf68-f469-44c7-8d0f-335148ff8952.css"> -->
+	<link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
 
-  <title>
-    {% if page.title == "Home" %}
-      {{ site.title }} &middot; {{ site.tagline }}
-    {% else %}
-      {{ page.title }} &middot; {{ site.title }}
-    {% endif %}
-  </title>
+	<!-- <script type="text/javascript" src="https://raw.githubusercontent.com/toddmotto/fluidvids/master/src/fluidvids.js"></script> -->
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="{{ site.baseurl }}public/css/poole.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}public/css/syntax.css">
-
-  <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}public/apple-touch-icon-precomposed.png">
-  <link rel="shortcut icon" href="{{ site.baseurl }}public/favicon.ico">
-
-  <!-- RSS -->
-  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}atom.xml">
 </head>

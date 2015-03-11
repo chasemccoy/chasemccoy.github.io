@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chase McCoy</title>
+    <description>Hello. Welcome to the weblog of Sean Sperte. This is a collection of notes related to design, technology, and faith.
+</description>
+    <link>http://seansperte.com/</link>
+    <atom:link href="http://seansperte.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 11 Mar 2015 11:24:17 -0500</pubDate>
+    <lastBuildDate>Wed, 11 Mar 2015 11:24:17 -0500</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Jekyll</title>
+        <description>&lt;p&gt;It turns out, hosting a blog on Tumblr doesn’t help motivate more writing or posting. That, plus the fact that I’ve been meaning to learn about new publishing systems, means it’s time to move things back “in-house”. So I’m back to hosting Geek &amp;amp; Mild myself. Well, not &lt;em&gt;myself&lt;/em&gt; technically.&lt;/p&gt;
+
+&lt;p&gt;For this version I’ve chosen to revive a previous design and use &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; – hosted on Github Pages. I lost some Tumblr posts along the way, but I ain’t cryin’.&lt;/p&gt;
+
+&lt;p&gt;The process to port the site wasn’t too bad. I used a lot of &lt;a href=&quot;https://twitter.com/mrwarren&quot;&gt;Brian Warren’s&lt;/a&gt; tips from his &lt;a href=&quot;http://begoodnotbad.com/article/Migrating-from-ExpressionEngine-to-Kirby&quot;&gt;post about porting ExpressionEngine to Kirby&lt;/a&gt;. Converting all my previous blog entries was a bit of a chore, but the hardest part was learning the Jekyll templating language. (I still haven’t really learned it, actually.)&lt;/p&gt;
+
+&lt;p&gt;What I like about this setup is it allows me to draft and publish new posts in a familiar way to which I work: write, save, commit (via git). Once I ‘commit’, git and Jekyll (and Github Pages) do the rest.&lt;/p&gt;
+
+&lt;p&gt;Incidentally, Geek &amp;amp; Mild is now open source, so if you’re interested in seeing how I’ve got things hooked up you can &lt;a href=&quot;https://github.com/sperte/sperte.github.io&quot;&gt;peruse the code&lt;/a&gt; – for now a least.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 29 Aug 2014 00:00:00 -0500</pubDate>
+        <link>http://seansperte.com/entry/jekyll</link>
+        <guid isPermaLink="true">http://seansperte.com/entry/jekyll</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Fairweather</title>
+        <description>&lt;p&gt;I grew up watching John Elway lead the likes of Bobby Humphrey, Steve Atwater, Karl Mecklenburg, and others to three Super Bowls in the 80’s. They lost all three – devastatingly.&lt;/p&gt;
+
+&lt;p&gt;The Denver Broncos were as good as you can get without being the best. So I became conditioned, even at a young age, to cheer for a team – to believe – with thick skin and strong resolve. Whether winning or losing, my team was my team.&lt;/p&gt;
+
+&lt;p&gt;To me, the Seahawks were always a non-issue. Back then they were in the same division as the Broncos, in the AFC West. But unlike the Raiders or Chargers, I actually liked the team from Seattle. I had family there, and liked the team colors. I also always found myself rooting for the Seahawks whenever there was another divisional game televised.&lt;/p&gt;
+
+&lt;p&gt;In 1998, after moving to Seattle, I watched from a distance as Elway – now with Terrell Davis, Rod Smith, Shannon Sharpe, Ed McCaffery, etc. – finally brought the Lombardi Trophy home to Denver. Apparently it took me leaving the state for the Broncos to find their way. If it wasn’t salt in the wound it was fly in the ointment.&lt;/p&gt;
+
+&lt;p&gt;Elway went on to retire a year later, after repeating a Championship season with another win in Super Bowl 33. Fly, ointment; normal. Go Broncos.&lt;/p&gt;
+
+&lt;p&gt;Then, in 2002, everything changed. The Seahawks switched conferences, and became an NFC team. That was the year I officially became a Seahawks fan. It was an easy fit, to put my learned and practiced win-or-lose support behind the local team. They hadn’t been contenders for years – if ever.&lt;/p&gt;
+
+&lt;p&gt;It wasn’t until the 2005 season when the Hawks made a valiant Super Bowl run that my fandom reached any sort of passionate level. They lost. Of course. And it would be a couple of years until Seattle made any impact beyond early December. But that didn’t matter. I was a die-hard; a fan-no-matter. Content, and even happy, with cheering on a losing team.&lt;/p&gt;
+
+&lt;p&gt;Then, slowly, things changed. John Elway returned… Then Pete Carroll was hired… Then Tim Tebow… Then Peyton Manning… Then Russell Wilson… Then this year.&lt;/p&gt;
+
+&lt;p&gt;Before the season started this year I told my dad that the Seahawks were going to go all the way – that they had something special. We debated whether or not Peyton could lead Denver the whole way, too. “Wouldn’t it be crazy? Could you imagine a Broncos/Seahawks Super Bowl?”&lt;/p&gt;
+
+&lt;p&gt;I’ve been called “conflicted”, “confused”, and “split-brained”. I love two NFL teams. But how is that possible? Don’t you have to choose one or the other? Maybe.&lt;/p&gt;
+
+&lt;p&gt;Or maybe I just have the capacity to be passionate about more than one. Maybe, like a parent with more than one child, it’s impossible for me to love one more than the other.&lt;/p&gt;
+
+&lt;p&gt;Tonight as I watched the Seahawks trounce the Broncos in Super Bowl 48, I wasn’t choosing to love one team over another. I was watching as a crazed and committed member of the 12th Man, and a dyed-in-the-wool Broncos fan. Don’t ask me to explain it.&lt;/p&gt;
+
+&lt;p&gt;Before the game, I sent this text to a buddy of mine: “Love my Broncos, but they’re about to run into the Hawks and get it handed to them. Just like preseason”&lt;/p&gt;
+
+&lt;p&gt;And that’s what happened. I watched the whole game standing up in my living room – mostly alone. I clapped, cheered, jumped, and screamed … By myself. Alone.&lt;/p&gt;
+
+&lt;p&gt;Whatever feeling of loss, disappointment, or frustration I may have had with the Broncos getting their butts kicked was completely overshadowed by the Seahawks finally, and definitively, earning their place in history.&lt;/p&gt;
+
+&lt;p&gt;So call me confused, or conflicted, or whatever. Just, whatever you do, don’t you dare call me a fair-weather fan.&lt;/p&gt;
+
+&lt;p&gt;I’m a 12. And I’m United in Orange. If I have a problem it’s not that I love two teams, it’s that I have no idea how to be a fan of a winning team.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 03 Feb 2014 00:00:00 -0600</pubDate>
+        <link>http://seansperte.com/entry/fairweather</link>
+        <guid isPermaLink="true">http://seansperte.com/entry/fairweather</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>People of the Internet</title>
+        <description>&lt;p&gt;The internet is awesome. Actually, no. The &lt;em&gt;people&lt;/em&gt; of the internet are awesome. The reason I know this is because last week I attended two conferences where I got to be with a lot of them. Some I’d just met, but some I’d been following for years – even a decade or more.&lt;/p&gt;
+
+&lt;p&gt;That term: following. I used it a lot over the last six days. “I’ve been following you for a long time.”&lt;/p&gt;
+
+&lt;p&gt;I said it to &lt;a href=&quot;http://shauninman.com/&quot;&gt;Shaun Inman&lt;/a&gt;, &lt;a href=&quot;http://mezzoblue.com/&quot;&gt;Dave Shea&lt;/a&gt;, &lt;a href=&quot;http://www.cameronmoll.com/&quot;&gt;Cameron Moll&lt;/a&gt;, &lt;a href=&quot;http://tincorporated.com/&quot;&gt;Tom Watson&lt;/a&gt; (well, his wife, actually), &lt;a href=&quot;http://drewwarkentin.com/&quot;&gt;Drew Warkentin&lt;/a&gt;, &lt;a href=&quot;http://shop.ugmonk.com/&quot;&gt;Jeff Sheldon&lt;/a&gt;, &lt;a href=&quot;http://www.brandclay.com/&quot;&gt;Sean Ferrell&lt;/a&gt;, &lt;a href=&quot;http://paularmstrong.me/&quot;&gt;Paul Armstrong&lt;/a&gt;, and many others. What I realized is that I’d been “following” these people long before Twitter, so the statement sounded trite and didn’t communicate the level of respect I have them. What I wanted to tell them, actually, was that their work had inspired and mentored me from afar.&lt;/p&gt;
+
+&lt;p&gt;Circles Conference was held in Dallas and organized by &lt;a href=&quot;http://burciaga.co/&quot;&gt;Ismael Burciaga&lt;/a&gt;. Its emphasis was on creativity, design, and art – and, ultimately, the inspiration of all those things. The talks themselves were great, and I enjoyed hearing from every speaker. But I was more inspired by meeting and speaking with the people who made up the conference. For instance:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/tiffapiffa&quot;&gt;Tiffany Duening&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/AndrewRocco&quot;&gt;Andy Rossi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/sawyermaigen&quot;&gt;Maigan Sawyer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/ryanhartsock&quot;&gt;Ryan Hartsock&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/chrisdavidgfx&quot;&gt;Chris David G&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/alextheduck27&quot;&gt;Alex Grigas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/HouseofGrays&quot;&gt;Megan Gray&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/evies&quot;&gt;Evie Shaffer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/daveonkels&quot;&gt;Dave Onkels&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Just click through some of those profiles, Dribbble accounts, blogs, etc. You can&amp;#8217;t help but be inspired.&lt;/p&gt;
+
+&lt;p&gt;The same was true of XOXO &amp;#8211; which I sort of see as a gathering of artists and inventors (a gross over generalization, I know). The &amp;#8220;d-word&amp;#8221; (disruption) was used sparingly, but the &lt;em&gt;idea&lt;/em&gt; permeated almost every talk and discussion. To what end? Not surprisingly, almost every talk touched on the idea of community &amp;#8211; people coming together.&lt;/p&gt;
+
+&lt;p&gt;Some of the wonderful people I met at XOXO:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/wanderingmatt&quot;&gt;Matthew Anderson&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/atnan&quot;&gt;Nathan de Vries&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/yarrcat&quot;&gt;Ros Hodgekiss&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://twitter.com/chrismessina&quot;&gt;Chris Messina&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/brynn&quot;&gt;Brynn Evans&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://twitter.com/tempo&quot;&gt;Thor&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/AmyGSFN&quot;&gt;Amy Muller&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/sonaar&quot;&gt;Sonaar Luthra&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/mikerugnetta&quot;&gt;Mike Rugnetta&lt;/a&gt; (why this guy doesn&amp;#8217;t have more followers is crazy to me)&lt;/li&gt;
+&lt;li&gt;and many others&amp;#8230;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So, for me, if I had any takeaways from the two conferences, they almost certainly all collide in the intersection between community, creativity, disruption, and people &amp;#8211; particularly the people who make the internet.&lt;/p&gt;
+
+&lt;p&gt;People are awesome. That&amp;#8217;s my big revelation from this past week. No duh, right?&lt;/p&gt;
+</description>
+        <pubDate>Wed, 25 Sep 2013 00:00:00 -0500</pubDate>
+        <link>http://seansperte.com/entry/people_of_the_internet</link>
+        <guid isPermaLink="true">http://seansperte.com/entry/people_of_the_internet</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>On #hashtags</title>
+        <description>&lt;p&gt;Every time I read a geek opine about social trends it reminds me of Maciej Ceglowski’s post from a few years ago entitled &lt;a href=&quot;http://blog.pinboard.in/2011/11/the_social_graph_is_neither/&quot;&gt;The Social Graph is Neither&lt;/a&gt;. His main assertion was that we are a bunch of admittedly non-social engineers designing and building software – social networks – for a system that is so wildly complex that it cannot be graphed. What’s so entertaining to me, is not only do we attempt to design, build, and graph it, we also love to criticize it.&lt;/p&gt;
+
+&lt;p&gt;A couple of years ago, when hashtags first started appearing in my Twitter timeline, I just sort of shrugged them off. I couldn’t see their value through the visual damage they imposed. Even today, I have a hard time #taking #anyone #seriously when they use more than one or two #hashtags for a #single #tweet – mostly because they just &lt;em&gt;look&lt;/em&gt; bad.&lt;/p&gt;
+
+&lt;p&gt;Daniel Victor recently &lt;a href=&quot;http://www.niemanlab.org/2013/03/hashtags-considered-harmful/&quot;&gt;wrote about this&lt;/a&gt;, saying he believes “a tweet free of hashtags is more pleasing to the eye, more easily consumed, and thus more likely to be retweeted (which is a proven way of growing your audience)”.&lt;/p&gt;
+
+&lt;p&gt;Now here’s where I have to admit I have come to realize three important facts about hashtags:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Hashtags are used by both users and marketers&lt;/strong&gt;. Like it or not, you cannot deny usage of hashtags is on the rise. The most compelling thing about this is that hashtags weren&amp;#8217;t created as a marketing tactic, yet their use has demanded marketer adoption.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Hashtags do have great potential&lt;/strong&gt;. Even in their most basic form &amp;#8211; for taxonomy &amp;#8211; hashtags can trump inferral through machines. No one knows better what they&amp;#8217;re saying than the person saying it.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Hashtags actually do increase engagement&lt;/strong&gt;. It may be tough to recognize through subjectivity, but the reality is, hashtags provide a mechanism for easier discovery, encourage brevity, promote a single key binding for disparate data, and even help inject tone/personality.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Those three factors are so strong, in fact, that &lt;a href=&quot;http://tagboard.com&quot;&gt;I co-founded a company&lt;/a&gt; that is basically built on top of hashtags. At Tagboard, we’re building tools that help both users and marketers use hashtags in a way that benefits both parties.&lt;/p&gt;
+
+&lt;p&gt;My opinion of hashtags is admittedly biased, and the root of my distaste for them is my design sense; they just look bad. Meanwhile, the engineer in me sees the yet-unrealized potential hashtags have. And then “Sensible Sean” sees hashtags as just harmless and fun.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 28 Mar 2013 00:00:00 -0500</pubDate>
+        <link>http://seansperte.com/entry/on_hashtags</link>
+        <guid isPermaLink="true">http://seansperte.com/entry/on_hashtags</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

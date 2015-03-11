@@ -1,0 +1,25 @@
+{% include head.html %}
+
+<body class="{{ page.layout }}">
+  <div class="content">
+
+  <header>
+    <img src="/assets/img/me.png" alt="Chase McCoy" class="avatar">
+    <h1><a href="/">{{ site.title | xml_escape }}</a></h1>    
+  </header>
+  
+  </div>
+
+  <div class="divider">
+  </div>
+
+  <div class="content">
+
+  {{ content }}
+
+  {% include footer.html %}
+
+  </div>
+</body>
+
+</html>
