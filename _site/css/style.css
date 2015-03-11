@@ -140,8 +140,8 @@ td, th { padding: 0; }
 html { 
   /*background: #eaebec; */
   background: white;
-  font-family: "Input Sans", Menlo, Courier, monospace; 
-  font-size: 18px; 
+  font-family: "Inconsolata", "Input Sans", Menlo, Courier, monospace; 
+  font-size: 20px; 
   line-height: 1.7; 
   /*color: #777;*/ 
   color: black;
@@ -179,9 +179,9 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { border: 0 none; }
 
 h1 {
   text-align: center;
-  font-size: 3em;
+  font-size: 2.8em;
   margin: 0 auto 20px auto;
-  font-family: "Arno Pro", "Input Sans", Menlo, Courier, monospace;
+  font-family: "Tisa Pro", "Input Sans", Menlo, Courier, monospace;
 }
 
 a { 
@@ -198,11 +198,36 @@ h1 a:hover {
   background-color: white;
 }
 
+.button {
+  border: 1px solid #bbbbbb;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  margin: 0 auto 0 auto;
+  display: block;
+  text-align: center;
+  width: 100px;
+  margin-bottom: 40px;
+}
+
+.button:hover {
+  background-color: #bbbbbb;
+}
+
+.button a {
+  border-bottom: none;
+}
+
+.button a:hover {
+  border-bottom: none;
+  background-color: #bbbbbb;
+}
+
 ::selection { color: #eaebec; background: #777; }
 
 section { position: relative; }
 
-small { font-size: 65%; }
+small { font-size: 75%; }
 
 hr { 
   margin: 3rem auto; 

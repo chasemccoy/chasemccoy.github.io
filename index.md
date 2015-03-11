@@ -4,6 +4,8 @@ layout: home
 
 Currently Chief Product Officer at [Tagboard](https://tagboard.com). I have over 20 years experience designing graphics, websites, interfaces, and presentations.
 
+<div class="button"><a href="http://chasem.co">Test</a></div>
+
 My last name is pronounced “spur-tee”, but I don't really care if it’s mispronounced. It's French -- I'm French. Well, French-Irish-Jewish; a mutt of nationalities, really. This is what I look like:
 
 I’m 34 years-old, happily married, and have a three awesome kids. I love my family. I’m a “family guy”.
