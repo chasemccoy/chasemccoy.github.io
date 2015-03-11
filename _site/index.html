@@ -20,12 +20,21 @@
 </head>
 
 
-<body class="home">
+<body class="home" onload="changeBackground();">
 
-  <header class="home">
-    <img src="/img/me.png" alt="Chase McCoy" class="avatar">
+  <header id="changeColors" class="home">
+    <img src="/img/me_bw.png" alt="Chase McCoy" class="avatar">
     <h1><a href="/">Chase McCoy</a></h1>    
   </header>
+
+  <script>
+  var colors = ['#E25243', '#00aeef', '#22d5e5', '#B8E986', '#F5A623', '#4A90E2', '#7F92A8', '#61C037',    '#B370EF', '##ffdc29'];
+  var randomColor = Math.floor((Math.random()) * colors.length);
+  var changeBackground = function() {
+    document.getElementById("changeColors").style.backgroundColor = colors[randomColor];
+  };
+  changeBackground();
+  </script>
 
 <!--   <div class="divider">
   </div> -->
