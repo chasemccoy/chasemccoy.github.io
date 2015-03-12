@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<article>
+	<h2>{{ page.title }}</h2>
+	<h4>{{ page.date | date_to_long_string }}</h4>
+
+  {% for i in (1..page.images) %}
+  <img src="/assets/{{ page.galleryURL }}/{{ i }}.jpg"><br>
+  {% endfor %}
+
+	{{ content }}
+<article>
