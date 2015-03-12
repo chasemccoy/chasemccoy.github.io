@@ -6,8 +6,17 @@ layout: default
 	<h4>{{ page.date | date_to_long_string }}</h4>
 
   {% for i in (1..page.images) %}
-  <img src="/assets/{{ page.galleryURL }}/{{ i }}.jpg"><br>
+    {% capture thecycle %}{% cycle 'imgleft', 'imgright' %}{% endcapture %}
+    <a href="{{ site.baseurl }}/assets/{{ page.galleryURL }}/{{ i }}.jpg" data-lightbox="image-1">
+    <img src="/assets/{{ page.galleryURL }}/{{ i }}.jpg" class="{{ thecycle }}">
+    </a>
+
+    {% if thecycle == 'imgright' %}
+        <br>
+    {% endif %}
+
   {% endfor %}
 
 	{{ content }}
+
 <article>

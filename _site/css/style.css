@@ -287,10 +287,15 @@ a.Pink:hover       {background-color: #FF6858; border: 1px solid #FF6858;}
 /* ====================== */
 
 img, iframe { 
-  max-width: calc(100% - 1rem); 
-  padding: .5rem; 
-  background: white; 
-  box-shadow: 0 3px 5px #bbbbbb;
+  /*max-width: calc(100% - 1rem);*/ 
+  max-width: 100%;
+  /*padding: .5rem; */
+  /*background: white; */
+  background: transparent;
+  /*box-shadow: 0 3px 5px #bbbbbb;*/
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
 }
 
 img.avatar {
@@ -305,18 +310,45 @@ img.avatar {
   border-radius: 50%;
 }
 
+a.img {
+  border-bottom: none;
+}
+
+a.img:hover {
+  border-bottom: none;
+  background-color: transparent;
+}
+
 img[align="left"], img.imgleft { 
   float: left; 
-  max-width: 50%; 
-  height: auto; 
-  margin-right: 1.5rem; 
+  max-width: 49%; 
+  height: auto;
+  margin-bottom: 15px; 
+  /*margin-right: 1.5rem; */
 }
 
 img[align="right"], img.imgright { 
   float: right; 
-  max-width: 50%; 
+  max-width: 49%; 
   height: auto; 
-  margin-left: 1.5rem; 
+  margin-bottom: 15px;
+  /*margin-left: 1.5rem; */
+}
+
+#leftimglink { 
+  float: left; 
+  max-width: 49%; 
+  height: auto;
+  margin-bottom: 15px; 
+  /*margin-right: 1.5rem; */
+}
+
+#rightimglink { 
+  float: right; 
+  max-width: 49%; 
+  height: auto; 
+  margin-bottom: 15px;
+  /*margin-left: 1.5rem; */
 }
 
 img.imgcenter { 
@@ -324,13 +356,17 @@ img.imgcenter {
   margin: 0 auto; 
 }
 
+a.lb-nav, a.lb-next, a.lb-prev, a.lb-close {
+  border-bottom: none;
+}
+
 /* ====================== */
 
-article { position: relative; }
+article { position: relative; clear: both; }
 article hr { width: 25%; margin: 2em auto; border-bottom: none; }
 article h2 a { color: #555; }
 article time a { color: #bbbbbb; border: 0 none; }
-article p { color: #555; }
+article p { color: #555; clear: both; }
 article p a { border-bottom: 1px solid #bbbbbb; }
 article blockquote { font-family: sans-serif; }
 article pre, article .code { display: block; max-width: 100%; overflow: scroll; padding: .5em; color: #000; background: #eee; border-radius: 2px; box-shadow: 0 -1px 1px #555; }
