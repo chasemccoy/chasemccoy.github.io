@@ -212,7 +212,7 @@ header.home h1 a {
 }
 
 header.home h1 a:hover {
-  background-color: #E25243;
+  background-color: transparent;
 }
 
 a { 
