@@ -8,6 +8,10 @@ url: "http://chasemccoy.github.io" # the base hostname & protocol for your site
 twitter_username: chase_mccoy
 github_username: chasemccoy
 
+collections:
+  galleries:
+    output: true
+
 # Build settings
 permalink: /:title
 paginate: 10
@@ -22,3 +26,9 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+  -
+    scope:
+      path: ""
+      type: "galleries"
+    values:
+      layout: "gallery"
