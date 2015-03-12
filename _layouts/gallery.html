@@ -3,7 +3,7 @@
 <body class="{{ page.layout }}">
 
   <header>
-    <h1><a href="/">{{ site.title | xml_escape }}</a></h1>    
+    <h1><a href="/" id="plainHeader">{{ site.title | xml_escape }}</a></h1>    
   </header>
 
   <article>
@@ -28,6 +28,16 @@
   <article>
     {% include footer.html %}
   </article>
+
+  <script>
+  var colors = ['#E25243', '#00aeef', '#22d5e5', '#B8E986', '#F5A623', '#4A90E2', '#7F92A8', '#61C037',    '#B370EF', '#ffdc29', '#FF6858'];
+  var hoverColors = ['Mint', 'Orange', 'Blue', 'Juicy', 'Turquoise', 'Bright', 'Dark', 'Green',            'Purple', 'Yellow', 'Pink']
+  var randomColor = Math.floor((Math.random()) * colors.length);
+  var changeBackground = function() {
+    document.getElementById("plainHeader").style.color = colors[randomColor];
+  };
+  changeBackground();
+</script>
 
 </body>
 
