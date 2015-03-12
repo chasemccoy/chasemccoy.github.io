@@ -11,6 +11,7 @@ github_username: chasemccoy
 collections:
   galleries:
     output: true
+    permalink: /:collection/:title/index.html
 
 # Build settings
 permalink: /:title
