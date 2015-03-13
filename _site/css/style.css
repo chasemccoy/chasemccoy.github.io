@@ -332,7 +332,7 @@ a.img:hover {
   background-color: transparent;
 }
 
-img[align="left"], img.imgleft, .left { 
+img[align="left"], img.imgleft, { 
   float: left; 
   max-width: 49%; 
   height: auto;
@@ -340,7 +340,7 @@ img[align="left"], img.imgleft, .left {
   /*margin-right: 1.5rem; */
 }
 
-img[align="right"], img.imgright, .right { 
+img[align="right"], img.imgright, { 
   float: right; 
   max-width: 49%; 
   height: auto; 
@@ -351,7 +351,8 @@ img[align="right"], img.imgright, .right {
 .left {
   float: left;
   width: 49%;
-  height: 225px;
+  height: 0;
+  padding-bottom: 38%;
   margin-bottom: 5px;
   overflow: hidden;
   -webkit-border-radius: 3px;
@@ -362,7 +363,8 @@ img[align="right"], img.imgright, .right {
 .right {
   float: right;
   width: 49%;
-  height: 225px;
+  height: 0;
+  padding-bottom: 38%;
   margin-bottom: 5px;
   overflow: hidden;
   -webkit-border-radius: 3px;
@@ -417,8 +419,8 @@ footer { text-align: center; margin: 3rem auto; color: #bbbbbb; line-height: 1.2
   body.home { width: 100% } 
   .content { width: calc(100% - 2rem); }
   h1 { font-size: 1.5em !important; }
-  .left { height: 115px; }
-  .right { height: 115px; }
+/*  .left { height: 115px; }
+  .right { height: 115px; }*/
 }
 
 
