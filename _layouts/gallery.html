@@ -11,9 +11,15 @@
 
     {% for i in (1..page.images) %}
       {% capture thecycle %}{% cycle 'imgleft', 'imgright' %}{% endcapture %}
-      <a href="{{ site.baseurl }}/assets/{{ page.galleryURL }}/{{ i }}.jpg" data-lightbox="image-1">
-      <img src="/assets/{{ page.galleryURL }}/{{ i }}.jpg" class="{{ thecycle }}">
-      </a>
+      {% capture cycle2 %}{% cycle 'left', 'right' %}{% endcapture %}
+      <div class="{{ cycle2 }}">
+        <!-- <a href="{{ site.baseurl }}/assets/{{ page.galleryURL }}/{{ i }}.jpg" data-lightbox="image-1">
+        <img src="/assets/{{ page.galleryURL }}/{{ i }}.jpg" class="{{ thecycle }}">
+        </a> -->
+        <a href="{{ site.baseurl }}/assets/{{ page.galleryURL }}/{{ i }}.jpg" data-lightbox="image-1">
+        <img src="/assets/{{ page.galleryURL }}/{{ i }}.jpg">
+        </a>
+      </div>
 
       {% if thecycle == 'imgright' %}
         <br>

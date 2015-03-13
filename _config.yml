@@ -9,7 +9,10 @@ twitter_username: chase_mccoy
 github_username: chasemccoy
 
 collections:
-  galleries:
+  photos:
+    output: true
+    permalink: /:collection/:title/index.html
+  design:
     output: true
     permalink: /:collection/:title/index.html
 
@@ -30,6 +33,12 @@ defaults:
   -
     scope:
       path: ""
-      type: "galleries"
+      type: "photos"
+    values:
+      layout: "gallery"
+  -
+    scope:
+      path: ""
+      type: "design"
     values:
       layout: "gallery"

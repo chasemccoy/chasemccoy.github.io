@@ -339,7 +339,7 @@ a.img:hover {
   background-color: transparent;
 }
 
-img[align="left"], img.imgleft { 
+img[align="left"], img.imgleft, .left { 
   float: left; 
   max-width: 49%; 
   height: auto;
@@ -347,7 +347,7 @@ img[align="left"], img.imgleft {
   /*margin-right: 1.5rem; */
 }
 
-img[align="right"], img.imgright { 
+img[align="right"], img.imgright, .right { 
   float: right; 
   max-width: 49%; 
   height: auto; 
@@ -355,20 +355,34 @@ img[align="right"], img.imgright {
   /*margin-left: 1.5rem; */
 }
 
-#leftimglink { 
-  float: left; 
-  max-width: 49%; 
-  height: auto;
-  margin-bottom: 15px; 
-  /*margin-right: 1.5rem; */
+.left {
+  float: left;
+  width: 49%;
+  height: 12em;
+  margin-bottom: 5px;
+  overflow: hidden;
 }
 
-#rightimglink { 
-  float: right; 
-  max-width: 49%; 
-  height: auto; 
-  margin-bottom: 15px;
-  /*margin-left: 1.5rem; */
+.right {
+  float: right;
+  width: 49%;
+  height: 12em;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+
+.left img, .right img {
+  max-width: 100%;
+}
+
+.left a, .left a:hover {
+  border-bottom: none;
+  background-color: transparent;
+}
+
+.right a, .right a:hover {
+  border-bottom: none;
+  background-color: transparent;
 }
 
 img.imgcenter { 
