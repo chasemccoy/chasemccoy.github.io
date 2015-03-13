@@ -189,6 +189,8 @@ header.home {
   body.home { width: 100% } 
   .content { width: calc(100% - 2rem); }
   h1 { font-size: 1.5em !important; }
+  .left { height: 115px; }
+  .right { height: 115px; }
 }
 
 /*.divider {
