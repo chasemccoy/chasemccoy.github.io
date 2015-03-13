@@ -358,7 +358,7 @@ img[align="right"], img.imgright, .right {
 .left {
   float: left;
   width: 49%;
-  height: 12em;
+  height: 10%;
   margin-bottom: 5px;
   overflow: hidden;
 }
@@ -366,7 +366,7 @@ img[align="right"], img.imgright, .right {
 .right {
   float: right;
   width: 49%;
-  height: 12em;
+  height: 10%;
   margin-bottom: 5px;
   overflow: hidden;
 }
