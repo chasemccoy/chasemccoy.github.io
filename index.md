@@ -20,5 +20,5 @@ In 2011, I left my career of almost 12 years to help start Tagboard, a social me
 - Follow me on [Twitter](http://twitter.com/sperte)
 - Connect with me on [LinkedIn](https://www.linkedin.com/in/sperte)
 - Browse my blog [archive](/archive)
-- Browse the [galleries](/galleries)
+- Browse the [photo](/photos) and [design](/design) galleries
 - [Email me](mailto:sean@sperte.com)
