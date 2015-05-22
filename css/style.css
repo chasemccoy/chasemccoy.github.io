@@ -163,6 +163,7 @@ body {
 
 body.home {
   width: 100%;
+  height: 100%;
 }
 
 header {
@@ -174,8 +175,11 @@ header.home {
   width: 100%;
   margin-top: 0;
   margin-bottom: 40px;
-  padding-top: 40px;
-  padding-bottom: 10px;
+  min-height: 100vh;
+}
+
+#headerContent {
+  padding-top: 30vh;
 }
 
 .content {
@@ -312,8 +316,8 @@ img, iframe {
 }
 
 img.avatar {
-  width: 90px;
-  height: 90px;
+  width: 130px;
+  height: 130px;
   background: none; 
   box-shadow: none;
   margin: 0 auto 0 auto;
