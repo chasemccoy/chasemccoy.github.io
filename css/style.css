@@ -316,8 +316,8 @@ img, iframe {
 }
 
 img.avatar {
-  width: 130px;
-  height: 130px;
+  width: 150px;
+  height: 150px;
   background: none; 
   box-shadow: none;
   margin: 0 auto 0 auto;
