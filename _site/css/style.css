@@ -334,7 +334,19 @@ img.arrow {
   box-shadow: none;
   margin: 0 auto 0 auto;
   display: block;
-  padding-top: 20vh;
+  position: relative;
+  left: -50%;
+}
+
+a.bottomCenter {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  border-bottom: none;
+}
+
+a.bottomCenter:hover {
+  background-color: transparent;
 }
 
 a.img {
