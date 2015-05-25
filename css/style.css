@@ -327,6 +327,16 @@ img.avatar {
   border-radius: 50%;
 }
 
+img.arrow {
+  width: 80px;
+  height: 80px;
+  background: none; 
+  box-shadow: none;
+  margin: 0 auto 0 auto;
+  display: block;
+  padding-top: 20vh;
+}
+
 a.img {
   border-bottom: none;
 }
