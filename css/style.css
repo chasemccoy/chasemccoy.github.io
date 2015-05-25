@@ -208,6 +208,15 @@ h1 {
   font-family: "Tisa Pro", "Input Sans", Menlo, Courier, monospace;
 }
 
+h2 {
+  margin-bottom: 0;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.1em;
+}
+
 header.home h1 a {
   color: white;
 }
@@ -228,6 +237,14 @@ a:hover {
 
 h1 a:hover {
   background-color: white;
+}
+
+.selfie {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 0.9em;
+  text-align: center;
+  color: #848484;
 }
 
 .button {
@@ -282,8 +299,6 @@ a.Juicy      {border: 1px solid #B8E986;}
 a.Turquoise  {border: 1px solid #F5A623;}
 a.Bright     {border: 1px solid #4A90E2;}
 a.Dark       {border: 1px solid #7F92A8;}
-a.Green      {border: 1px solid #61C037;}
-a.Purple     {border: 1px solid #B370EF;}
 a.Yellow     {border: 1px solid #ffdc29;}
 a.Pink       {border: 1px solid #FF6858;}
 
@@ -294,8 +309,6 @@ a.Juicy:hover      {background-color: #B8E986; border: 1px solid #B8E986;}
 a.Turquoise:hover  {background-color: #F5A623; border: 1px solid #F5A623;}
 a.Bright:hover     {background-color: #4A90E2; border: 1px solid #4A90E2;}
 a.Dark:hover       {background-color: #7F92A8; border: 1px solid #7F92A8;}
-a.Green:hover      {background-color: #61C037; border: 1px solid #61C037;}
-a.Purple:hover     {background-color: #B370EF; border: 1px solid #B370EF;}
 a.Yellow:hover     {background-color: #ffdc29; border: 1px solid #ffdc29;}
 a.Pink:hover       {background-color: #FF6858; border: 1px solid #FF6858;}
 
@@ -328,8 +341,8 @@ img.avatar {
 }
 
 img.arrow {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   background: none; 
   box-shadow: none;
   margin: 0 auto 0 auto;
@@ -347,6 +360,13 @@ a.bottomCenter {
 
 a.bottomCenter:hover {
   background-color: transparent;
+}
+
+img.app {
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin-right: 15px;
 }
 
 a.img {
