@@ -7,7 +7,10 @@ layout: home
 ###Cosmic Owl is an design and development studio by Nathan Ansel and Chase McCoy.
 
 <br>
-<p class="selfie">Here's our selfie!<img src="/img/selfie.jpg" alt="Selfie!">That's Nathan on the left, and Chase on the right.</p>
+<p class="selfie">Here's our selfie!
+<img src="/img/selfie.jpg" alt="Selfie!">
+That's Nathan on the left, and Chase on the right.
+</p>
 
 <br>
 
