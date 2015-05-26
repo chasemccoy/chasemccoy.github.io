@@ -465,7 +465,7 @@ footer { text-align: center; margin: 3rem auto; color: #bbbbbb; line-height: 1.2
   body { width: calc(100% - 2rem); } 
   body.home { width: 100% } 
   .content { width: calc(100% - 2rem); }
-  h1 { font-size: 1.5em !important; }
+  h1 { font-size: 1.5em !important; line-height: 1.5em; }
   h2 { font-size: 1.1em; }
   h3 { font-size: 0.9em; }
 }
