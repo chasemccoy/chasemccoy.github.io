@@ -206,7 +206,7 @@ h1 {
   font-size: 2.8em;
   margin: 0 auto 20px auto;
   font-weight: 900;
-  font-family: "proxima-nova-sc-osf", "Input Sans", Menlo, Courier, Sans;
+  font-family: "proxima-nova-sc-osf", Helvetica, sans-serif;
 }
 
 h2 {
