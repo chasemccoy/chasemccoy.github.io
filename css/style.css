@@ -146,9 +146,9 @@ td, th { padding: 0; }
 html { 
   /*background: #eaebec; */
   background: white;
-  font-family: "Inconsolata", "Input Sans", Menlo, Courier, monospace; 
+  font-family: "inconsolata", "Input Sans", Menlo, Courier, monospace; 
   font-size: 20px; 
-  line-height: 1.7; 
+  line-height: 1.5; 
   /*color: #777;*/ 
   color: black;
   width: 100%;
@@ -205,7 +205,8 @@ h1 {
   text-align: center;
   font-size: 2.8em;
   margin: 0 auto 20px auto;
-  font-family: "Tisa Pro", "Input Sans", Menlo, Courier, monospace;
+  font-weight: 900;
+  font-family: "proxima-nova-sc-osf", "Input Sans", Menlo, Courier, Sans;
 }
 
 h2 {

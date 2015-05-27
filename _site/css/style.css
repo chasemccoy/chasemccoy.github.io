@@ -146,9 +146,9 @@ td, th { padding: 0; }
 html { 
   /*background: #eaebec; */
   background: white;
-  font-family: "Inconsolata", "Input Sans", Menlo, Courier, monospace; 
+  font-family: "inconsolata", "Input Sans", Menlo, Courier, monospace; 
   font-size: 20px; 
-  line-height: 1.7; 
+  line-height: 1.5; 
   /*color: #777;*/ 
   color: black;
   width: 100%;
@@ -205,7 +205,8 @@ h1 {
   text-align: center;
   font-size: 2.8em;
   margin: 0 auto 20px auto;
-  font-family: "Tisa Pro", "Input Sans", Menlo, Courier, monospace;
+  font-weight: 900;
+  font-family: "proxima-nova-sc-osf", "Input Sans", Menlo, Courier, Sans;
 }
 
 h2 {
@@ -462,12 +463,14 @@ footer { text-align: center; margin: 3rem auto; color: #bbbbbb; line-height: 1.2
 
 
 @media (max-width: 959px) { 
+  html { font-size: 18px; }
   body { width: calc(100% - 2rem); } 
   body.home { width: 100% } 
   .content { width: calc(100% - 2rem); }
-  h1 { font-size: 1.5em !important; }
-/*  .left { height: 115px; }
-  .right { height: 115px; }*/
+  h1 { font-size: 1.5em !important; line-height: 1.3em; margin-bottom: 1.5em; }
+  h2 { font-size: 1.1em; line-height: 1.2em; }
+  h3 { font-size: 0.9em; }
+  .selfie { margin-bottom: 20px; }
 }
 
 
