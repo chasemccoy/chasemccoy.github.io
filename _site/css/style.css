@@ -248,6 +248,12 @@ h1 a:hover {
   color: #848484;
 }
 
+p.selfie img {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+
 .button {
   border: 1px solid #bbbbbb;
   -webkit-border-radius: 20px;
@@ -296,21 +302,17 @@ hr {
 a.Mint       {border: 1px solid #E25243;}
 a.Orange     {border: 1px solid #00aeef;}
 a.Blue       {border: 1px solid #22d5e5;}
-a.Juicy      {border: 1px solid #B8E986;}
 a.Turquoise  {border: 1px solid #F5A623;}
 a.Bright     {border: 1px solid #4A90E2;}
 a.Dark       {border: 1px solid #7F92A8;}
-a.Yellow     {border: 1px solid #ffdc29;}
 a.Pink       {border: 1px solid #FF6858;}
 
 a.Mint:hover       {background-color: #E25243; border: 1px solid #E25243;}
 a.Orange:hover     {background-color: #00aeef; border: 1px solid #00aeef;}
 a.Blue:hover       {background-color: #22d5e5; border: 1px solid #22d5e5;}
-a.Juicy:hover      {background-color: #B8E986; border: 1px solid #B8E986;}
 a.Turquoise:hover  {background-color: #F5A623; border: 1px solid #F5A623;}
 a.Bright:hover     {background-color: #4A90E2; border: 1px solid #4A90E2;}
 a.Dark:hover       {background-color: #7F92A8; border: 1px solid #7F92A8;}
-a.Yellow:hover     {background-color: #ffdc29; border: 1px solid #ffdc29;}
 a.Pink:hover       {background-color: #FF6858; border: 1px solid #FF6858;}
 
 /* ====================== */
@@ -339,7 +341,7 @@ img.avatar {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 img.arrow {
