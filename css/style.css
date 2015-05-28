@@ -248,6 +248,12 @@ h1 a:hover {
   color: #848484;
 }
 
+img.selfie {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
 .button {
   border: 1px solid #bbbbbb;
   -webkit-border-radius: 20px;
