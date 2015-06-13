@@ -1,8 +1,35 @@
----
+<!-- ---
 layout: default
 ---
 <article>
-	<!-- <h2>{{ page.title }}</h2> -->
-	<!-- <h4>{{ page.date | date_to_long_string }}</h4> -->
+	<h1>{{ page.title }}</h1>
+	<h4>{{ page.date | date_to_long_string }}</h4>
 	{{ content }}
-<article>
+<article> -->
+
+
+{% include head.html %}
+
+<body class="{{ page.layout }}">
+
+  <article>
+  <h1>{{ page.title }}</h1>
+  <!-- <h4>{{ page.date | date_to_long_string }}</h4> -->
+  {{ content }}
+  <article>
+
+  {% include footer.html %}
+
+  <script>
+  var colors = ['#E25243', '#00aeef', '#22d5e5', '#B8E986', '#F5A623', '#4A90E2', '#7F92A8', '#61C037',    '#B370EF', '#ffdc29', '#FF6858'];
+  var hoverColors = ['Mint', 'Orange', 'Blue', 'Juicy', 'Turquoise', 'Bright', 'Dark', 'Green',            'Purple', 'Yellow', 'Pink']
+  var randomColor = Math.floor((Math.random()) * colors.length);
+  var changeBackground = function() {
+    document.getElementById("plainHeader").style.color = colors[randomColor];
+  };
+  changeBackground();
+</script>
+
+</body>
+
+</html>
