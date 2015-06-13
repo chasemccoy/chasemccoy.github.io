@@ -448,7 +448,7 @@ a.lb-nav, a.lb-next, a.lb-prev, a.lb-close, a.lb-cancel {
 
 /* ====================== */
 
-article { position: relative; clear: both; }
+article { position: relative; clear: both; margin-top: 20px; }
 article hr { width: 25%; margin: 2em auto; border-bottom: none; }
 article h2 a { color: #555; }
 article time a { color: #bbbbbb; border: 0 none; }
