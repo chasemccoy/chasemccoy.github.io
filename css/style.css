@@ -266,7 +266,7 @@ p.selfie img {
   padding: 10px 0 10px 0;
 }
 
-#button1, #button2 {
+#button1, #button2, #button3 {
   /*border: 1px solid #bbbbbb;*/
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -282,7 +282,7 @@ p.selfie img {
   background-color: #bbbbbb;
 }
 
-#button1:hover, #button2:hover  {
+#button1:hover, #button2:hover, #button3:hover  {
   /*background-color: #bbbbbb;*/
   color: white;
 }
