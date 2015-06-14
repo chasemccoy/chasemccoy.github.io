@@ -219,8 +219,7 @@ h3 {
 }
 
 h3 a {
-  border-bottom: 1px solid #bbbbbb;
-  color: #bbbbbb;
+  border-bottom: 2px solid #bbbbbb;
 }
 
 header.home h1 a {
