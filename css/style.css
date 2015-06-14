@@ -218,6 +218,11 @@ h3 {
   font-size: 1.1em;
 }
 
+h3 a {
+  border-bottom: 1px solid #bbbbbb;
+  color: #bbbbbb;
+}
+
 header.home h1 a {
   color: white;
 }
