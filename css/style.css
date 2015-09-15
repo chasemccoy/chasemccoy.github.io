@@ -481,6 +481,8 @@ body.default {
 }
 div.book {
   margin: 0 0 3em 0;
+  clear: both;
+  min-height: 320px;
 }
 header.bookClubHeader {
   background-color: #E25243;
