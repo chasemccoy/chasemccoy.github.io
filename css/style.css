@@ -523,6 +523,10 @@ img.bookCover {
   float: left;
   padding-right: 15px;
 }
+.clear {
+  clear:both;
+  line-height:0;
+}
 
 
 @media (max-width: 959px) {
