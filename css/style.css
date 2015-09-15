@@ -482,7 +482,6 @@ body.default {
 div.book {
   margin: 0 0 3em 0;
   clear: both;
-  min-height: 320px;
 }
 header.bookClubHeader {
   background-color: #E25243;
@@ -540,7 +539,6 @@ img.bookCover {
   .selfie { margin-bottom: 20px; }
   img.bookCover { max-width: 150px; }
   h1.bookClubTitle {font-size: 2.3em !important; padding-top: 0.5em; }
-  div.book { min-height: 320px; }
 }
 
 
