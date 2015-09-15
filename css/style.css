@@ -470,7 +470,7 @@ footer { text-align: center; margin: 3rem auto; color: #bbbbbb; line-height: 1.2
 
 
 /* ========================= */
-/* BOOK CLUV =============== */
+/* BOOK CLUB =============== */
 /* ========================= */
 body.default {
   width: 100%;
@@ -505,6 +505,9 @@ h2.bookTitle {
   text-align: left;
   margin: 0;
   line-height: 1.2em;
+}
+h2.bookTitle a:hover {
+  background-color: transparent;
 }
 h3.bookInfo {
   margin: 0;
