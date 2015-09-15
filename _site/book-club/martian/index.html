@@ -7,7 +7,7 @@
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-	<title>Cosmic Owl Studio</title>
+	<title>The Martian</title>
 
 	<meta name="description" content="Cosmic Owl: A design a devlopment studio focusing on iOS apps and the web.">
 	<meta name="keywords" content="app,apps,iOS,development,design,studio,iPhone,iPad,Mac,Apple">
@@ -48,50 +48,14 @@
 </head>
 
 
-<body class="home" onload="changeBackground();">
+<body class="post">
 
-  <header id="changeColors" class="home">
-  <div id="headerContent">
-    <img src="/img/owl.svg" alt="Chase McCoy" class="avatar">
-    <h1><a href="/">Cosmic Owl Studio</a></h1>
-      <a href="#hello" class="bottomCenter">
-      <img src="/img/arrow.png" alt="More" class="arrow">
-      </a>
-    </div>
-  </header>
+  <article>
+  <h1>The Martian</h1>
+  <!-- <h4>14 September 2015</h4> -->
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-<!--   <div class="divider">
-  </div> -->
-
-  <div class="content">
-
-  <h1 id="hello">Hello there!</h1>
-
-<h3>Cosmic Owl is a design and development studio by two best friends, Nathan Ansel and Chase McCoy. Read more about us <a href="/about">here</a>.</h3>
-
-<br>
-<p class="selfie">Here's our selfie!    
-<img src="/img/selfie.jpg" alt="Selfie!">    
-That's Nathan on the left, and Chase on the right.    
-</p>     
-
-<br>
-
-<h3>If you want to work together on a project, say hi:</h3>
-<a href="mailto:hi@cosmicowl.co" id="button2" class="label">hi@cosmicowl.co</a>
-
-<br>
-
-<h1>Stuff we've made:</h1>
-
-<h2>Nox — Sunset and Sunrise Times</h2>
-
-<div id="app">
-    <img src="/img/nox_icon.png" class="app" alt="Nox">
-    <p>Nox (latin for ‘night’) is the best app for quickly finding when the sun will set or rise at your current location. It can even alert you before a sunrise or sunset using customizable alerts. Plus, the today widget makes it even easier to quickly check the amount of daylight left. No internet connection required, super fast, and extremely simple.</p>
-    <a href="https://geo.itunes.apple.com/us/app/nox-sunset-and-sunrise-times/id998183834?mt=8&at=1010l5Ku" id="button1" class="label">Download Now</a>
-</div>
-
+  <article>
 
   <footer>
 
@@ -102,18 +66,14 @@ That's Nathan on the left, and Chase on the right.
 </footer>
 
 
-  </div>
-
   <script>
-  var colors = ['#E25243', '#00aeef', '#22d5e5', '#F5A623', '#4A90E2', '#7F92A8', '#FF6858'];
+  var colors = ['#E25243', '#00aeef', '#22d5e5', '#F5A623', '#4A90E2', '#7F92A8',
+  '#FF6858'];
   var hoverColors = ['Mint', 'Orange', 'Blue', 'Turquoise', 'Bright', 'Dark',
   'Pink']
   var randomColor = Math.floor((Math.random()) * colors.length);
   var changeBackground = function() {
-    document.getElementById("changeColors").style.backgroundColor = colors[randomColor];
-    document.getElementById("button1").className = hoverColors[randomColor];
-    document.getElementById("button2").className = hoverColors[randomColor];
-    document.getElementById("button3").className = hoverColors[randomColor];
+    document.getElementById("plainHeader").style.color = colors[randomColor];
   };
   changeBackground();
 </script>

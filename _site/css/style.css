@@ -4,10 +4,10 @@
 
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 /** 1. Set default font family to sans-serif. 2. Prevent iOS text size adjust after orientation change, without disabling user zoom. */
-html { 
-font-family: sans-serif; 
--ms-text-size-adjust: 100%; 
--webkit-text-size-adjust: 100%; 
+html {
+font-family: sans-serif;
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
 margin: 0 auto !important;
 padding: 0 auto!important;
 }
@@ -143,22 +143,22 @@ td, th { padding: 0; }
 /* STRUCTURE =========== */
 /* ===================== */
 
-html { 
+html {
   /*background: #eaebec; */
   background: white;
-  font-family: "inconsolata", "Input Sans", Menlo, Courier, monospace; 
-  font-size: 20px; 
-  line-height: 1.5; 
-  /*color: #777;*/ 
+  font-family: "inconsolata", "Input Sans", Menlo, Courier, monospace;
+  font-size: 20px;
+  line-height: 1.5;
+  /*color: #777;*/
   color: black;
   width: 100%;
   margin: 0 auto;
   padding: 0;
 }
 
-body { 
-  width: 50vw; 
-  margin: 0 auto; 
+body {
+  width: 50vw;
+  margin: 0 auto;
 }
 
 body.home {
@@ -218,6 +218,10 @@ h3 {
   font-size: 1.1em;
 }
 
+h3 a {
+  border-bottom: 2px solid #bbbbbb;
+}
+
 header.home h1 a {
   color: white;
 }
@@ -226,14 +230,14 @@ header.home h1 a:hover {
   background-color: transparent;
 }
 
-a { 
-  color: black; 
-  text-decoration: none; 
-  border-bottom: 1px solid #bbbbbb; 
+a {
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid #bbbbbb;
 }
 
-a:hover { 
-  background-color: #bbbbbb; 
+a:hover {
+  background-color: #bbbbbb;
 }
 
 h1 a:hover {
@@ -266,7 +270,7 @@ p.selfie img {
   padding: 10px 0 10px 0;
 }
 
-#button1, #button2 {
+#button1, #button2, #button3 {
   /*border: 1px solid #bbbbbb;*/
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -282,7 +286,7 @@ p.selfie img {
   background-color: #bbbbbb;
 }
 
-#button1:hover, #button2:hover  {
+#button1:hover, #button2:hover, #button3:hover  {
   /*background-color: #bbbbbb;*/
   color: white;
 }
@@ -293,10 +297,10 @@ section { position: relative; }
 
 small { font-size: 75%; }
 
-hr { 
-  margin: 3rem auto; 
-  border: 0 none; 
-  border-top: 1px solid #bbbbbb; 
+hr {
+  margin: 3rem auto;
+  border: 0 none;
+  border-top: 1px solid #bbbbbb;
 }
 
 a.Mint       {border: 1px solid #E25243;}
@@ -319,8 +323,8 @@ a.Pink:hover       {background-color: #FF6858; border: 1px solid #FF6858;}
 /* IMAGES =============== */
 /* ====================== */
 
-img, iframe { 
-  /*max-width: calc(100% - 1rem);*/ 
+img, iframe {
+  /*max-width: calc(100% - 1rem);*/
   max-width: 100%;
   /*padding: .5rem; */
   /*background: white; */
@@ -334,7 +338,7 @@ img, iframe {
 img.avatar {
   width: 150px;
   height: 150px;
-  background: none; 
+  background: none;
   box-shadow: none;
   margin: 0 auto 0 auto;
   display: block;
@@ -347,7 +351,7 @@ img.avatar {
 img.arrow {
   width: 60px;
   height: 60px;
-  background: none; 
+  background: none;
   box-shadow: none;
   margin: 0 auto 0 auto;
   display: block;
@@ -382,18 +386,18 @@ a.img:hover {
   background-color: transparent;
 }
 
-img[align="left"], img.imgleft, { 
-  float: left; 
-  max-width: 49%; 
+img[align="left"], img.imgleft, {
+  float: left;
+  max-width: 49%;
   height: auto;
-  margin-bottom: 15px; 
+  margin-bottom: 15px;
   /*margin-right: 1.5rem; */
 }
 
-img[align="right"], img.imgright, { 
-  float: right; 
-  max-width: 49%; 
-  height: auto; 
+img[align="right"], img.imgright, {
+  float: right;
+  max-width: 49%;
+  height: auto;
   margin-bottom: 15px;
   /*margin-left: 1.5rem; */
 }
@@ -437,9 +441,9 @@ img[align="right"], img.imgright, {
   background-color: transparent;
 }
 
-img.imgcenter { 
-  display: block; 
-  margin: 0 auto; 
+img.imgcenter {
+  display: block;
+  margin: 0 auto;
 }
 
 a.lb-nav, a.lb-next, a.lb-prev, a.lb-close, a.lb-cancel {
@@ -448,7 +452,7 @@ a.lb-nav, a.lb-next, a.lb-prev, a.lb-close, a.lb-cancel {
 
 /* ====================== */
 
-article { position: relative; clear: both; }
+article { position: relative; clear: both; margin-top: 20px; }
 article hr { width: 25%; margin: 2em auto; border-bottom: none; }
 article h2 a { color: #555; }
 article time a { color: #bbbbbb; border: 0 none; }
@@ -465,10 +469,36 @@ article p code { background: #eee; }
 footer { text-align: center; margin: 3rem auto; color: #bbbbbb; line-height: 1.2; padding-top: 40px; }
 
 
-@media (max-width: 959px) { 
+/* ========================= */
+/* BOOK CLUV =============== */
+/* ========================= */
+div.book {
+  margin: 0 0 3em 0;
+}
+h1.bookClubHeader {
+  font-size: 2.3em;
+  margin: 0 0 1.2em 0;
+}
+h2.bookTitle {
+  font-size: 1.8em;
+  text-align: center;
+  margin: 0;
+}
+h3.bookInfo {
+  margin: 0;
+  font-weight: normal;
+}
+img.bookCover {
+  max-width: 200px;
+  float: left;
+  padding-right: 15px;
+}
+
+
+@media (max-width: 959px) {
   html { font-size: 18px; }
-  body { width: calc(100% - 2rem); } 
-  body.home { width: 100% } 
+  body { width: calc(100% - 2rem); }
+  body.home { width: 100% }
   .content { width: calc(100% - 2rem); }
   h1 { font-size: 1.5em !important; line-height: 1.3em; margin-bottom: 1.5em; }
   h2 { font-size: 1.1em; line-height: 1.2em; }

@@ -2,18 +2,18 @@
 
 <body class="{{ page.layout }}">
 
-	<header>
+	<!-- <header>
 		<h1><a href="/" id="plainHeader">{{ site.title | xml_escape }}</a></h1>		
-	</header>
+	</header> -->
 
 	{{ content }}
 
 	{% include footer.html %}
 
   <script>
-  var colors = ['#E25243', '#00aeef', '#22d5e5', '#F5A623', '#4A90E2', '#7F92A8', 
+  var colors = ['#E25243', '#00aeef', '#22d5e5', '#F5A623', '#4A90E2', '#7F92A8',
   '#FF6858'];
-  var hoverColors = ['Mint', 'Orange', 'Blue', 'Turquoise', 'Bright', 'Dark', 
+  var hoverColors = ['Mint', 'Orange', 'Blue', 'Turquoise', 'Bright', 'Dark',
   'Pink']
   var randomColor = Math.floor((Math.random()) * colors.length);
   var changeBackground = function() {

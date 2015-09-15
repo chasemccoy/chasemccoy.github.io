@@ -8,6 +8,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
 	<title>Cosmic Owl Studio</title>
+
+	<meta name="description" content="Cosmic Owl: A design a devlopment studio focusing on iOS apps and the web.">
+	<meta name="keywords" content="app,apps,iOS,development,design,studio,iPhone,iPad,Mac,Apple">
 	
 	<link rel="alternate" type="application/rss+xml" title="Cosmic Owl Studio" href="/feed.xml">
 	<link rel="shortcut icon" href="/favicon.ico">
@@ -21,17 +24,35 @@
 	<!-- <script type="text/javascript" src="https://raw.githubusercontent.com/toddmotto/fluidvids/master/src/fluidvids.js"></script> -->
 
 	<script src="/js/jquery-1.11.0.min.js"></script>
-	<script src="/js/lightbox.min.js"></script>
-	<link href="/css/lightbox.css" rel="stylesheet" />
+	<!-- <script src="/js/lightbox.min.js"></script> -->
+	<!-- <link href="/css/lightbox.css" rel="stylesheet" /> -->
+
+	<script>
+	$(function() {
+	  $('a[href*=#]:not([href=#])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html,body').animate({
+	          scrollTop: target.offset().top
+	        }, 1000);
+	        return false;
+	      }
+	    }
+	  });
+	});
+	</script>
 
 </head>
 
 
 <body class="default">
 
-	<header>
+	<!-- <header>
 		<h1><a href="/" id="plainHeader">Cosmic Owl Studio</a></h1>		
-	</header>
+	</header> -->
 
 	
 <p><a href="/design/pixel-art" class="button">Pixel Art</a></p>
@@ -47,8 +68,10 @@
 
 
   <script>
-  var colors = ['#E25243', '#00aeef', '#22d5e5', '#B8E986', '#F5A623', '#4A90E2', '#7F92A8', '#61C037',    '#B370EF', '#ffdc29', '#FF6858'];
-  var hoverColors = ['Mint', 'Orange', 'Blue', 'Juicy', 'Turquoise', 'Bright', 'Dark', 'Green',            'Purple', 'Yellow', 'Pink']
+  var colors = ['#E25243', '#00aeef', '#22d5e5', '#F5A623', '#4A90E2', '#7F92A8',
+  '#FF6858'];
+  var hoverColors = ['Mint', 'Orange', 'Blue', 'Turquoise', 'Bright', 'Dark',
+  'Pink']
   var randomColor = Math.floor((Math.random()) * colors.length);
   var changeBackground = function() {
     document.getElementById("plainHeader").style.color = colors[randomColor];

@@ -7,7 +7,7 @@
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-	<title>Cosmic Owl Studio</title>
+	<title>Ready Player One</title>
 
 	<meta name="description" content="Cosmic Owl: A design a devlopment studio focusing on iOS apps and the web.">
 	<meta name="keywords" content="app,apps,iOS,development,design,studio,iPhone,iPad,Mac,Apple">
@@ -48,50 +48,22 @@
 </head>
 
 
-<body class="home" onload="changeBackground();">
+<body class="post">
 
-  <header id="changeColors" class="home">
-  <div id="headerContent">
-    <img src="/img/owl.svg" alt="Chase McCoy" class="avatar">
-    <h1><a href="/">Cosmic Owl Studio</a></h1>
-      <a href="#hello" class="bottomCenter">
-      <img src="/img/arrow.png" alt="More" class="arrow">
-      </a>
-    </div>
-  </header>
+  <article>
+  <h1>Ready Player One</h1>
+  <!-- <h4>13 June 2015</h4> -->
+  <p>Cosmic Owl got its start when two best friends with a love for building cool things came together and decided to build cool things together.</p>
 
-<!--   <div class="divider">
-  </div> -->
+<p>Nathan Ansel and Chase McCoy are two Computer Science students in Starkville, Mississippi with a penchant for good software. We are Apple fanboys, music aficionados, and design junkies.</p>
 
-  <div class="content">
+<p>Cosmic Owl is our creative outlet for a delightful combination of code and design. We look forward to making neat products and to working with interesting people. Please <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#104;&#105;&#064;&#099;&#111;&#115;&#109;&#105;&#099;&#111;&#119;&#108;&#046;&#099;&#111;">get in touch</a> if you want to work with us.</p>
 
-  <h1 id="hello">Hello there!</h1>
+<p>We are just getting started.</p>
 
-<h3>Cosmic Owl is a design and development studio by two best friends, Nathan Ansel and Chase McCoy. Read more about us <a href="/about">here</a>.</h3>
+<p>— Nathan and Chase</p>
 
-<br>
-<p class="selfie">Here's our selfie!    
-<img src="/img/selfie.jpg" alt="Selfie!">    
-That's Nathan on the left, and Chase on the right.    
-</p>     
-
-<br>
-
-<h3>If you want to work together on a project, say hi:</h3>
-<a href="mailto:hi@cosmicowl.co" id="button2" class="label">hi@cosmicowl.co</a>
-
-<br>
-
-<h1>Stuff we've made:</h1>
-
-<h2>Nox — Sunset and Sunrise Times</h2>
-
-<div id="app">
-    <img src="/img/nox_icon.png" class="app" alt="Nox">
-    <p>Nox (latin for ‘night’) is the best app for quickly finding when the sun will set or rise at your current location. It can even alert you before a sunrise or sunset using customizable alerts. Plus, the today widget makes it even easier to quickly check the amount of daylight left. No internet connection required, super fast, and extremely simple.</p>
-    <a href="https://geo.itunes.apple.com/us/app/nox-sunset-and-sunrise-times/id998183834?mt=8&at=1010l5Ku" id="button1" class="label">Download Now</a>
-</div>
-
+  <article>
 
   <footer>
 
@@ -102,18 +74,14 @@ That's Nathan on the left, and Chase on the right.
 </footer>
 
 
-  </div>
-
   <script>
-  var colors = ['#E25243', '#00aeef', '#22d5e5', '#F5A623', '#4A90E2', '#7F92A8', '#FF6858'];
+  var colors = ['#E25243', '#00aeef', '#22d5e5', '#F5A623', '#4A90E2', '#7F92A8',
+  '#FF6858'];
   var hoverColors = ['Mint', 'Orange', 'Blue', 'Turquoise', 'Bright', 'Dark',
   'Pink']
   var randomColor = Math.floor((Math.random()) * colors.length);
   var changeBackground = function() {
-    document.getElementById("changeColors").style.backgroundColor = colors[randomColor];
-    document.getElementById("button1").className = hoverColors[randomColor];
-    document.getElementById("button2").className = hoverColors[randomColor];
-    document.getElementById("button3").className = hoverColors[randomColor];
+    document.getElementById("plainHeader").style.color = colors[randomColor];
   };
   changeBackground();
 </script>

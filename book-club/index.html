@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<header>
+  <h1 class="bookClubHeader"><a href="/book-club">Cosmic Owl Book Club</a></h1>
+</header>
+
+{% for post in site.posts %}
+  {% if post.categories contains 'book-club' %}
+	<div class="book">
+		<h2 class="bookTitle"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <h3 class="bookInfo">{{ post.author }}, {{ post.published }}</h3>
+		<div class="entry">
+      <img src="/book-club/img/{{ post.image }}" class="bookCover">
+			{{ post.content }}
+		</div>
+	</div>
+  {% endif %}
+{% endfor %}
