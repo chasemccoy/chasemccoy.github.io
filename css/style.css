@@ -523,8 +523,8 @@ img.bookCover {
 @media (max-width: 959px) {
   html { font-size: 18px; }
   body { width: calc(100% - 2rem); }
-  body.home { width: 100% }
-  .content { width: calc(100% - 2rem); }
+  body.home, body.default { width: 100% }
+  #content, .content { width: calc(100% - 2rem); }
   h1 { font-size: 1.5em !important; line-height: 1.3em; margin-bottom: 1.5em; }
   h2 { font-size: 1.1em; line-height: 1.2em; }
   h3 { font-size: 0.9em; }
