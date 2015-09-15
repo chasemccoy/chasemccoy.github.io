@@ -520,7 +520,7 @@ h3.bookInfo {
 img.bookCover {
   max-width: 200px;
   float: left;
-  padding-right: 15px;
+  margin-right: 15px;
 }
 .clear {
   clear:both;
