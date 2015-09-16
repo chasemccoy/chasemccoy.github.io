@@ -12,7 +12,7 @@ title: Cosmic Owl Book Club
 {% for post in site.posts %}
   {% if post.categories contains 'book-club' %}
 	<div class="book">
-		<h2 class="bookTitle"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+		<h2 class="bookTitle">{{ post.title }}</h2>
     <h3 class="bookInfo">{{ post.author }}, {{ post.published }} <span style="font-size:0.7em; color:gray;">&nbsp;&nbsp;—&nbsp;&nbsp;picked by {{ post.picked }}</span></h3>
 		<div class="entry">
       <img src="/book-club/img/{{ post.image }}" class="bookCover">
