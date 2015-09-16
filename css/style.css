@@ -487,12 +487,12 @@ header.bookClubHeader {
   background-color: #E25243;
   margin-top: 0;
   margin-bottom: 3em;
-  height: 150px;
+  height: 200px;
 }
 h1.bookClubTitle {
   font-size: 2.3em;
   margin: 0 0 1.2em 0;
-  padding: 1em 0 0 0;
+  padding: 0.1em 0 0 0;
 }
 h1.bookClubTitle a {
   color: white;
