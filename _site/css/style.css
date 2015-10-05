@@ -161,6 +161,10 @@ body {
   margin: 0 auto;
 }
 
+body.post {
+  width: 100%;
+}
+
 body.home {
   width: 100%;
   height: 100%;
