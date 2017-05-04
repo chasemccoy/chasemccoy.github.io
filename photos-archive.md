@@ -1,6 +1,6 @@
 ---
+permalink: "/photos/"
 layout: default
-permalink: /photos/
 ---
 
 {% for post in site.photos %}

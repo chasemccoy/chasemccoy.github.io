@@ -1,8 +1,9 @@
 ---
 title: The Sea of Trolls
-category: book-club
+date: 2015-09-15 00:00:00 Z
+categories:
+- book-club
 author: Nancy Farmer
-published: 2006
 image: trolls.jpg
 picked: Nate
 link: http://www.amazon.com/Sea-Trolls-Trilogy/dp/0689867468/ref=sr_1_1?ie=UTF8&qid=1442357820&sr=8-1&keywords=sea+of+trolls

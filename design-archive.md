@@ -1,6 +1,6 @@
 ---
+permalink: "/design/"
 layout: default
-permalink: /design/
 ---
 
 {% for post in site.design %}

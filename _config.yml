@@ -1,44 +1,47 @@
-# Site settings
-title: "Cosmic Owl Studio"
+---
+title: Cosmic Owl Studio
+timezone: UTC
+collections:
+  design:
+    title: Design
+    output: true
+    permalink: "/:collection/:title/index.html"
+  photos:
+    title: Photos
+    output: true
+    permalink: "/:collection/:title/index.html"
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+- scope:
+    path: ''
+    type: photos
+  values:
+    layout: gallery
+- scope:
+    path: ''
+    type: design
+  values:
+    layout: gallery
 email: desk@chasemccoy.net
-description: > # this means to ignore newlines until "baseurl:"
-  Hello. Welcome to the weblog of Sean Sperte. This is a collection of notes related to design, technology, and faith.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://chasemccoy.github.io" # the base hostname & protocol for your site
+description: 'Hello. Welcome to the weblog of Sean Sperte. This is a collection of
+  notes related to design, technology, and faith.
+
+'
+baseurl: ''
+url: http://chasemccoy.github.io
 twitter_username: chase_mccoy
 github_username: chasemccoy
-
-collections:
-  photos:
-    output: true
-    permalink: /:collection/:title/index.html
-  design:
-    output: true
-    permalink: /:collection/:title/index.html
-
-# Build settings
-permalink: /:categories/:title
+permalink: "/:categories/:title"
 paginate: 10
 paginate_path: "/:num"
 markdown: kramdown
-
-# Defaults
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  -
-    scope:
-      path: ""
-      type: "photos"
-    values:
-      layout: "gallery"
-  -
-    scope:
-      path: ""
-      type: "design"
-    values:
-      layout: "gallery"

@@ -1,6 +1,6 @@
 ---
+permalink: "/archive/"
 layout: default
-permalink: /archive/
 ---
 
 <ul>
